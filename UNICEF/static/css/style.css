@@ -2,13 +2,11 @@
 	text-align: center;
 	color: #000000;
 	min-height: 15px;
-	font-size:10px;
-	_height: 15px;
+	font-size:18px;
+
 	margin-top: 10px;
 	padding-top: 10px;
 	margin-bottom: 10px;
-	border-top: 1px dashed #000000;
-	border-top-width: 1px;
-	border-top-style: dashed;
-	border-top-color: #000000;
+	font-family: "Helvetica Neue";
+
 }
