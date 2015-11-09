@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
 	<title>{% block title %} {% endblock %}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	{% load staticfiles %}
+	
 	<link rel="stylesheet" type="text/css" href='{% static "css/style.css" %}' />
 	<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
@@ -22,7 +23,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="/">ThoughtWorks | UNICEF ACCOUNT</a>
+					<a class="navbar-brand" href="/"><img alt="ThoughtWorks" id="tw-logo" src="{% static 'image/tw-logo.png' %}"><img alt="UNICEF" id="unicef-logo" src="{% static 'image/unicef.png' %}"></a>
 				</div>
             </div>
 		</nav>
