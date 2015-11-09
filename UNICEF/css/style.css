@@ -11,13 +11,13 @@
 }
 
 #unicef-logo{
-	height: 20px;
+	height: 25px;
     padding-left: 10px;
-    padding-bottom: 1px;
+    padding-bottom: 1.5px;
 }
 
 #tw-logo{
-	height: 20px;
+	height: 25px;
 }
 
 .header{
@@ -38,7 +38,7 @@
     text-align: center;
 /*    color: azure;*/
     font-size: 40px;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Ruda', sans-serif;
 }
 
 #bg-describe{
@@ -53,28 +53,48 @@
 
 #teambar{
 	padding-top: 10px;
-	background-color: #69695D;
-	height: 500px;
+	background-color: #E5E5E5;
+	height: 450px;
 }
 
 #team-describe{
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Ruda', sans-serif;
     text-align: center;
     font-size: 40px;
-    color: white;
+    color:#353535;
 }
 
-.row > div {
-	width: 30%;
-	margin: 15px;
-	background-color: white;
-	color: red;
+.team-grid {
+	width: 90%;
+	margin: 0 auto;
+	text-decoration: none;
 }
 
-.col-md-4 > h3 {
-    font-family: 'Lato', sans-serif;
-	font-size: 40px;
-	color: #69695D;
-	padding-top: 125px;
-    padding-bottom: 125px;
+.team-color-red{
+	background-color: #FBABBD;
 }
+.team-color-blue{
+	background-color: #4DB3F1;
+}
+.team-color-green{
+	background-color: #26CA7F;
+}
+
+.card {
+	display: block;
+    padding: 25px;
+    transition: all .2s ease-out;
+}
+.card :hover{
+    transform: translate(0,-2px);
+    opacity: .85;
+}
+
+.team-head {
+	text-align: center;
+	font-family: 'Ruda', sans-serif;
+	font-size: 35px;
+	color:white ;
+	padding:125px 0;
+}
+

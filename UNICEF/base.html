@@ -1,33 +1,25 @@
-{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{% block title %} {% endblock %}</title>
+	<title>ThoughtWorks | UNICEF ACCOUNT</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Ruda:900' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href='{% static "css/style.css" %}' />
+	<link rel="stylesheet" type="text/css" href='css/style.css' />
 	<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-	<script type="text/javascript" src="{% static 'js/jquery.anystretch.min.js' %}"></script>
+	<script type="text/javascript" src="js/jquery.anystretch.min.js"></script>
 	<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-	{% block script %} {% endblock %}
 </head>
 <body>
-<div class="bg" data-stretch="{% static 'image/17.png' %}">
+<div class="bg" data-stretch="image/17.png">
 </div>
 <div class="container"  >
 
 	<nav class="navbar navbar-default navbar-fixed-top header">
 		<div class="container">
 			<div class="navbar-header">
-				<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button> -->
 				<a class="navbar-brand" href="/"><img alt="ThoughtWorks" id="tw-logo" src="{% static 'image/tw-logo.png' %}"><img alt="UNICEF" id="unicef-logo" src="{% static 'image/unicef.png' %}"></a>
 			</div>
         </div>
@@ -42,30 +34,36 @@
 <div id="teambar">
 
     <div class="container">
-        <p id="team-describe">Team Introduce</p>
-        <div class="row" id="team-name">
-            <div class="col-md-4 text-center">
-                <h3>EUMS</h3>
-            </div>
-            <div class="col-md-4 text-center">
-                <h3>POLIO</h3>
-            </div>
-            <div class="col-md-4 text-center">
-                <h3>PS&M</h3>
-            </div>
+    	<div>
+    	    <p id="team-describe">Team Introduce</p>
+    	</div>
+        <div class="row">
+	        <div class="col-xs-6 col-md-4">
+				<div class="team-grid team-color-red">
+					<div class="card">
+						<h3 class="team-head">EUMS</h3>
+					</div>
+				</div>
+	        </div>
+	  		<div class="col-xs-6 col-md-4">
+	  			<div class="team-grid team-color-blue">
+		  			<div class="card">
+		  				<h3 class="team-head">POLIO</h3>	
+		  			</div>
+				</div>
+	  		</div>
+	  		<div class="col-xs-6 col-md-4">
+	  			<div class="team-grid team-color-green">
+		  			<div class="card">
+		  				<h3 class="team-head">PS&M</h3>	
+		  			</div>
+				</div>
+	  		</div>
         </div>
     </div>
 
 </div>
-
-	{% block content %} {% endblock %}
-		<div class="footer"> © 2015 ThoughtWorks, Inc. </div>
-
-
-   
-
-		
-
+<div class="footer"> © 2015 ThoughtWorks, Inc. </div>
 
 </body>
 <script>
