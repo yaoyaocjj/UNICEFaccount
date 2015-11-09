@@ -2,11 +2,11 @@
 	text-align: center;
 	color: #000000;
 	min-height: 15px;
-	font-size:13px;
-	margin-top: 10px;
+	font-size:15px;
+	margin-top: 100px;
 	padding-top: 10px;
-	margin-bottom: 10px;
-	font-family: "Helvetica Neue";
+	border-top: 1px groove #111111;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -21,7 +21,7 @@
 }
 
 .header{
-	opacity: 0.9;
+	opacity: 0.8;
 	background-color: white;
 }
 
@@ -29,21 +29,38 @@
 	height: 400px;
 }
 
+#slogen{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
 #bg-title {
     text-align: center;
-    padding-top: 100px;
-    color: azure;
-    font-size: 50px;
+/*    color: azure;*/
+    font-size: 40px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 #bg-describe{
 	text-align: center;
-    color: white;
-    font-size: 25px;
+/*    color: white;*/
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
 
+}
+
+#teambar{
+	padding-top: 10px;
+	background-color: #69695D;
+	height: 500px;
+}
+
+#team-describe{
+	font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
 }
 
