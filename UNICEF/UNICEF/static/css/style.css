@@ -26,6 +26,13 @@
 }
 
 .bg {
-	height: 600px;
+	height: 400px;
+}
+
+#bg-title {
+    text-align: center;
+    padding-top: 150px;
+    color: azure;
+    font-size: 60px;
 }
 
