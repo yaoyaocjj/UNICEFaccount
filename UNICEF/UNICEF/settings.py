@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'UNICEF',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -60,6 +61,21 @@ TEMPLATE_LOADERS = (
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, '../templates'),)
 
+STATIC_ROOT = os.path.join(BASE_DIR,'../static')
+STATIC_URL = '/static/'
+
+
+STATICFILES_DIRS = (
+    # ("css", os.path.join(STATIC_ROOT,'css')),
+    # ("js", os.path.join(STATIC_ROOT,'js')),
+    # ("images", os.path.join(STATIC_ROOT,'images')),
+)
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
