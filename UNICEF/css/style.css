@@ -4,7 +4,7 @@
 	min-height: 15px;
 	font-size:15px;
 	padding-top: 10px;
-    font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 
 }
 .footer{
@@ -14,8 +14,8 @@
 
 #unicef-logo{
 	height: 25px;
-    padding-left: 10px;
-    padding-bottom: 1.5px;
+	padding-left: 9px;
+	padding-bottom: 2px;
 }
 
 #tw-logo{
@@ -52,33 +52,33 @@
 }
 
 .bg-title {
-    text-align: center;
-/*    color: azure;*/
-    font-size: 40px;
+	text-align: center;
+	/*    color: azure;*/
+	font-size: 32px;
 	font-family: 'Ruda', sans-serif;
 }
 
 .bg-describe{
 	text-align: center;
-/*    color: white;*/
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+	/*    color: white;*/
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
 
 
 }
 
 #teambar{
 	padding-top: 10px;
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 	background-color: #F5F5F5;
 }
 
 #team-describe{
 	font-family: 'Ruda', sans-serif;
-    text-align: center;
-    font-size: 40px;
-    color:#353535;
-    padding-top: 20px;
+	text-align: center;
+	font-size: 40px;
+	color:#353535;
+	padding-top: 20px;
 }
 
 .team-grid {
@@ -99,8 +99,8 @@
 
 .card {
 	display: block;
-    transition: all .2s ease-out;
-    text-decoration: blink;
+	transition: all .2s ease-out;
+	text-decoration: blink;
 }
 
 .linkpage{
@@ -109,13 +109,14 @@
 	font-family: 'Lato', sans-serif;
 }
 
+
 a:hover, a:focus {
-    color: #2a6496;
-    text-decoration: blink;
+	color: #2a6496;
+	text-decoration: blink;
 }
 
 .card:hover{
-    transform: translate(0px,-2px);
+	transform: translate(0px,-2px);
 }
 
 
@@ -124,13 +125,39 @@ a:hover, a:focus {
 	font-family: 'Ruda', sans-serif;
 	font-size: 35px;
 	color: white ;
-	padding: 25px 0;
+	padding: 20px 0;
 }
 
 .team-title {
 	text-align: center;
-    color: white;
-    font-size: 50px;
+	color: white;
+	font-size: 50px;
 	font-family: 'Ruda', sans-serif;
 	padding-top: 120px;
+}
+
+.team-photo{
+	width:60%;
+	padding-top: 20px;
+}
+
+.info-bg {
+	background-color: #E6E6E6;
+	padding: 30px;
+	text-align: center;
+}
+.team-link{
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	display: inherit;
+	transition: all .2s ease-out;
+}
+
+.team-link:hover{
+	transform: translate(0px,-1px);
+}
+
+.red{
+	color: #A63F70;
 }
