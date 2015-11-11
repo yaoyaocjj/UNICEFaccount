@@ -58,13 +58,24 @@
 	font-family: 'Ruda', sans-serif;
 }
 
+.bg-title-polio{
+	color: #004A7B;
+}
+
+.bg-title-polio:hover {
+	color: #0069B2;
+	cursor:pointer;
+}
+
 .bg-describe{
 	text-align: center;
 	/*    color: white;*/
 	font-size: 17px;
 	font-family: 'Lato', sans-serif;
+}
 
-
+.bg-describe_polio {
+	font-size: 20px;
 }
 
 #teambar{
@@ -164,4 +175,18 @@ a:hover, a:focus {
 
 .blue{
 	color: #006BB0;
+}
+
+.polio-location{
+	color: #00619F;
+	font-weight: 700;
+}
+
+.polio-photo{
+	-webkit-filter: opacity(0.5);
+	cursor: pointer;
+}
+
+.polio-photo:hover{
+	-webkit-filter:none;
 }
