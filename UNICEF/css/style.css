@@ -224,3 +224,17 @@ a:hover, a:focus {
     padding: 30px 80px 25px;
     margin: 50px 0px;
 }
+
+.product{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.product-logo{
+	-webkit-filter: grayscale(1);
+	margin: 10px, 0;
+}
+
+.product-logo:hover{
+	-webkit-filter: grayscale(0);
+}
