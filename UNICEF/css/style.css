@@ -9,13 +9,17 @@
 	font-family: 'Lato', sans-serif;	
 }
 
-#unicef-logo{
+.unicef-logo{
 	height: 25px;
 	padding-left: 9px;
 	padding-bottom: 2px;
 }
 
-#tw-logo{
+.left{
+	float:right;
+}
+
+.tw-logo{
 	height: 25px;
 }
 
@@ -144,6 +148,16 @@ a:hover, a:focus {
 	font-size: 50px;
 	font-family: 'Ruda', sans-serif;
 	padding-top: 120px;
+	margin: 0 0;
+}
+
+.team-explain{
+	text-align: center;
+	font-style: italic;
+	color:white;
+	font-size: 20px;
+	margin-top: -5px;
+	font-family: 'Lato', sans-serif;
 }
 
 .team-photo{
@@ -176,6 +190,9 @@ a:hover, a:focus {
 .blue{
 	color: #006BB0;
 }
+.green{
+	color: #61925C;
+}
 
 .polio-location{
 	color: #00619F;
@@ -196,7 +213,6 @@ a:hover, a:focus {
     margin: 0;
     line-height: 1.3em;
     font-size: 18px;
-    font-style: italic;
     display: block;
     font-family: 'Lato', sans-serif;
     background: url(../image/quote-open.png) left top no-repeat,url(../image/quote-close.png) right bottom no-repeat;
