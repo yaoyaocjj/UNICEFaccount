@@ -1,12 +1,3 @@
-.copyright{
-	text-align: center;
-	color: #000000;
-	min-height: 15px;
-	font-size:15px;
-	padding-top: 10px;
-	font-family: 'Lato', sans-serif;
-
-}
 .footer{
 	background-color: #D6D6D6;
 	padding-bottom: 10px;
@@ -72,10 +63,12 @@
 	/*    color: white;*/
 	font-size: 17px;
 	font-family: 'Lato', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .bg-describe_polio {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 #teambar{
@@ -148,8 +141,9 @@ a:hover, a:focus {
 }
 
 .team-photo{
-	width:60%;
+	width:70%;
 	padding-top: 20px;
+	padding-bottom: 15px;
 }
 
 .info-bg {
@@ -189,4 +183,18 @@ a:hover, a:focus {
 
 .polio-photo:hover{
 	-webkit-filter:none;
+}
+
+.featured-quote {
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.3em;
+    font-size: 18px;
+    font-style: italic;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    background: url(../image/quote-open.png) left top no-repeat,url(../image/quote-close.png) right bottom no-repeat;
+    background-size: 55px;
+    padding: 30px 80px 25px;
+    margin: 50px 0px;
 }
