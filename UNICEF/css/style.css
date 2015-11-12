@@ -233,7 +233,7 @@ a:hover, a:focus {
 
 .product-logo{
 	-webkit-filter: grayscale(1);
-	margin: 10px, 0;
+	margin: 10px 0;
 }
 
 .product-logo:hover,.product-logo:focus{
