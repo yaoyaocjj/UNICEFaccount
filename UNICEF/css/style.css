@@ -176,6 +176,7 @@ a:hover, a:focus {
 	text-align: center;
 }
 .team-link{
+	font-size: 16px;
 	padding-top: 10px;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
@@ -235,6 +236,7 @@ a:hover, a:focus {
 	margin: 10px, 0;
 }
 
-.product-logo:hover{
+.product-logo:hover,.product-logo:focus{
 	-webkit-filter: grayscale(0);
+	transform: translate(0px,-1px);
 }
