@@ -234,9 +234,10 @@ a:hover, a:focus {
 .product-logo{
 	-webkit-filter: grayscale(1);
 	margin: 10px 0;
+	transition: all .2s ease-out;
 }
 
 .product-logo:hover,.product-logo:focus{
-	-webkit-filter: grayscale(0);
+	-webkit-filter: grayscale(0) drop-shadow(3px 3px 3px #A0A0A0);
 	transform: translate(0px,-1px);
 }
