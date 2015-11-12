@@ -3,6 +3,12 @@
 	padding-bottom: 10px;
 }
 
+.copyright{
+	text-align: center;
+	font-size: 13px;
+	font-family: 'Lato', sans-serif;	
+}
+
 #unicef-logo{
 	height: 25px;
 	padding-left: 9px;
