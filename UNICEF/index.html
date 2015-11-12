@@ -17,6 +17,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href='css/style.css' />
 	<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scrollfix.min.js"></script>	
 	<script type="text/javascript" src="js/jquery.anystretch.min.js"></script>
 	<script type="text/javascript" src="js/jquery.hovertreescroll.js"></script>
 	<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
@@ -75,10 +76,11 @@
 			</div>
 		</div>
 	</div>
-
+	<div class="team-picture">
 	<div id="eums" class="ubg" data-stretch="image/eums.png">
 		<p class="team-title">EUMS</p>
 		<p class="team-explain">Supply End User Monitoring System</p>
+	</div>
 	</div>
 	<div class="info-bg">
 		<div class="container">
@@ -93,9 +95,11 @@
 			</div>
 		</div>
 	</div>
+	<div class="team-picture">
 	<div id="polio" class="pbg" data-stretch="image/polio.png">
 		<p class="team-title">POLIO</p>
 		<p class="team-explain">Rhizome Polio Team</p>
+	</div>
 	</div>
 	<div class="info-bg">
 		<div class="container">
@@ -119,9 +123,11 @@
 			</div>
 		</div>
 	</div>
-	<div id="psm" class="mbg" data-stretch="image/psm.png">
-		<p class="team-title">PS&M</p>
-		<p class="team-explain">Production Support and Maintenance</p>
+	<div class="team-picture">
+		<div id="psm" class="mbg" data-stretch="image/psm.png">
+			<p class="team-title">PS&M</p>
+			<p class="team-explain">Production Support and Maintenance</p>
+		</div>
 	</div>
 	<div class="info-bg">
 		<div class="container">
@@ -148,12 +154,12 @@
 				</p>
 			</div>
 			<div>
-				<img src="image/psm-team.png" alt="psm-team" class="team-photo">
+				<img src="image/psm-team.png" alt="psm-team" class="team-photo endpoint">
 				<a class="green team-link" href="#">Learn More About ThoughtWorks P&SM Team ></a>
 			</div>
 		</div>
 	</div>
-	<div id="slogen">
+	<div id="slogen" >
 		<img alt="idea" id="idea-logo" src="image/idea.png">
 		<h1 class="bg-title">AMBITIOUS MISSIONS NEED DISRUPTIVE THINKING</h1>
 		<p class="bg-describe">We are passionate technologists. We provide software delivery, pioneering tools and consulting to help UNICEF with ambitious missions</p>
@@ -178,7 +184,30 @@
 	}  
 	function scroll3(id) {  
 		$("#" + id).HoverTreeScroll(1500);  
-	}   
+	}   	
+</script>
+<script type="text/javascript">
 
+
+    $(document).ready(function() {
+        var summaries = $('.team-picture');
+        summaries.each(function(i) {
+            var summary = $(summaries[i]);
+            var next = summaries[i + 1];
+            if(next){
+                summary.scrollFix({
+                distanceTop: $(".header").outerHeight() - 120,
+                endPos: next,
+                 zIndex: 1000
+            });
+            }else{
+                summary.scrollFix({
+                    distanceTop: $(".header").outerHeight() - 120,
+                    endPos: '.endpoint',
+                    zIndex: 1000 });
+            }
+            
+        });
+    });
 </script>
 </html>
