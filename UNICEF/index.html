@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href='css/style.css' />
 	<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.anystretch.min.js"></script>
+	<script type="text/javascript" src="js/jquery.hovertreescroll.js"></script>
 	<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -19,8 +20,8 @@
 		<nav class="navbar navbar-default navbar-fixed-top header">
 			<div class="container">
 
-					<a class="navbar-brand" ><img alt="ThoughtWorks" class="tw-logo" src="image/tw-logo.png"></a>
-					<a class="navbar-brand left" ><img alt="UNICEF" class="unicef-logo" src="image/unicef.png"></a>
+				<a class="navbar-brand" ><img alt="ThoughtWorks" class="tw-logo" src="image/tw-logo.png"></a>
+				<a class="navbar-brand left" ><img alt="UNICEF" class="unicef-logo" src="image/unicef.png"></a>
 				
 			</div>
 		</nav>
@@ -33,30 +34,30 @@
 				<p class="bg-describe">UNICEF is mandated by the United Nations General Assembly to advocate for the protection of children's rights, to help meet their basic needs and to expand their opportunities to reach their full potential. <br><br>
 					ThoughtWorks UNICEF Account concentrates on using the power of technology to help UNICEF complete their mission more efficiently.<br><br>
 					Now our account has three teams and mainly focus on developing and maintaining unicef web apps.</p>
-			</div>
+				</div>
 				<h3 id="team-describe">Why us?</h3>
-					<p class="bg-describe ">
-						ThoughtWorks prides itself on being thought leaders in the software industry as a whole.  We, collectively, have made tremendous contributions to shaping our industry and introducing new concepts, tools, and techniques that have revolutionized the way software is delivered to businesses to create value.
-					</p>
+				<p class="bg-describe ">
+					ThoughtWorks prides itself on being thought leaders in the software industry as a whole.  We, collectively, have made tremendous contributions to shaping our industry and introducing new concepts, tools, and techniques that have revolutionized the way software is delivered to businesses to create value.
+				</p>
 				
 				<div class="row">
 					<div class="col-xs-12 col-md-4">
 						<div class="team-grid team-color-red">
-							<a href="#eums" class="card">
+							<a href="javascript:scroll1('eums');" class="card">
 								<h3 class="team-head">EUMS</h3>
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4">
 						<div class="team-grid team-color-blue">
-							<a href="#polio" class="card">
+							<a href="javascript:scroll2('polio');" class="card">
 								<h3 class="team-head">POLIO</h3>
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4">
 						<div class="team-grid team-color-green">
-							<a href="#psm" class="card">
+							<a href="javascript:scroll3('psm');" class="card">
 								<h3 class="team-head">PS&M</h3>
 							</a>
 						</div>
@@ -144,5 +145,15 @@
 		$('.ubg').anystretch();
 		$('.pbg').anystretch();
 		$('.mbg').anystretch();
+		function scroll1(id) {  
+			$("#" + id).HoverTreeScroll(500);  
+		}  
+		function scroll2(id) {  
+			$("#" + id).HoverTreeScroll(1000);  
+		}  
+		function scroll3(id) {  
+			$("#" + id).HoverTreeScroll(1500);  
+		}   
+
 	</script>
 	</html>
