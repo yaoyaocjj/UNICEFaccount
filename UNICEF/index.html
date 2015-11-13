@@ -22,8 +22,8 @@
 	<script type="text/javascript" src="js/jquery.hovertreescroll.js"></script>
 	<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
-<body>
-	<div class="bg" data-stretch="image/17.png">
+<body style="padding-top:60px;">
+	<div class="bg" data-stretch="image/17.jpg">
 	</div>
 	<div class="container" >
 		<nav class="navbar navbar-default navbar-fixed-top header">
@@ -39,34 +39,39 @@
 		<div class="container">
 
 			<div>
-			<p id="team-describe">Our Team</p>
-			<p class="bg-describe">UNICEF is mandated by the United Nations General Assembly to advocate for the protection of children's rights, to help meet their basic needs and to expand their opportunities to reach their full potential. <br><br>
-				ThoughtWorks UNICEF Account concentrates on using the power of technology to help UNICEF complete their mission more efficiently.<br><br>
-				Now our account has three teams and mainly focus on developing and maintaining unicef web apps.</p>
+			<p id="team-describe">ThoughtWorks and UNICEF</p>
+			<div class="row">
+			<p class="bg-describe col-xs-12 col-sm-6 col-md-6">ThoughtWorks UNICEF Account concentrates on using the power of technology to help UNICEF complete their mission more efficiently. We help to change the way UNICEF receive value from this software. </p>
+			<p class="bg-describe col-xs-12 col-sm-6 col-md-6">UNICEF is mandated by the United Nations General Assembly to advocate for the protection of children's rights, to help meet their basic needs and to expand their opportunities to reach their full potential.</p>
+			
+			</div>
 			</div>
 			<div id="slogen">
 				<img alt="idea" id="idea-logo" src="image/team.png">
 			</div>
+			<p class="bg-describe">
+				ThoughtWorks is a social and commercial community whose purpose is to revolutionize software creation and delivery while advocating for positive social change in the world. Revolutionizing IT to us means, every day, delivering software for and with our clients that does exactly what is needed, to it's maximum potential.
+			</p>
 			<p class="bg-describe ">
 				ThoughtWorks prides itself on being thought leaders in the software industry as a whole.  We, collectively, have made tremendous contributions to shaping our industry and introducing new concepts, tools, and techniques that have revolutionized the way software is delivered to businesses to create value.
 			</p>
 			
 			<div class="row">
-				<div class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-sm-4 col-md-4">
 					<div class="team-grid team-color-red">
 						<a href="javascript:scroll1('eums');" class="card">
 							<h3 class="team-head">EUMS</h3>
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-sm-4 col-md-4">
 					<div class="team-grid team-color-blue">
 						<a href="javascript:scroll2('polio');" class="card">
 							<h3 class="team-head">POLIO</h3>
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-sm-4 col-md-4">
 					<div class="team-grid team-color-green">
 						<a href="javascript:scroll3('psm');" class="card">
 							<h3 class="team-head">PS&M</h3>
@@ -76,8 +81,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="team-picture">
-	<div id="eums" class="ubg" data-stretch="image/eums.png">
+	<div class="team-picture-ubg">
+	<div id="eums" class="tbg" data-stretch="image/eums.png">
 		<p class="team-title">EUMS</p>
 		<p class="team-explain">Supply End User Monitoring System</p>
 	</div>
@@ -90,13 +95,16 @@
 				<p class="bg-describe">
 					EUMs is the abbreviation for Supply End User Monitoring System. EUMs provides feedback about the quality, impact and efficiency of the supply component of country programmes. It is a regular and systematic checking of the supplies received by the end users against the targeted quantity given in the planning documents. It enables improvements in both supply planning and procurement.
 				</p>
-				<img src="image/eums-team.png" alt="eums-team" class="team-photo">
-				<a class="red team-link" href="#">  Learn More About ThoughtWorks EUMS Team > </a>
+				<div class="row">
+					<img src="image/eums-team.png" alt="eums-team" class="col-xs-12 col-md-8 col-md-offset-2">
+				</div>
+				 <a class="red team-link" > △ Members of ThoughtWorks EUMS Team  </a> 
+				<!-- <a class="red team-link" href="#">  Learn More About ThoughtWorks EUMS Team > </a> -->
 			</div>
 		</div>
 	</div>
-	<div class="team-picture">
-	<div id="polio" class="pbg" data-stretch="image/polio.png">
+	<div class="team-picture-pbg">
+	<div id="polio" class="tbg" data-stretch="image/polio.png">
 		<p class="team-title">POLIO</p>
 		<p class="team-explain">Rhizome Polio Team</p>
 	</div>
@@ -109,26 +117,28 @@
 					Polio is a highly infectious disease with no cure. It mainly affects children who are younger than five years old. The virus of polio can cause paralysis by destroying the nervous system.
 					The Global Polio Eradication Initiative (GPEI) was launched in 1988, by WHO, Rotary International, CDC and UNICEF. By immunising children with effective vaccines, more than 99 percent of polio cases have been reduced by the immunisation; more than 10 million children have been saved from being paralysed.
 				</p>
-				<a class="blue team-link" href="https://www.dropbox.com/s/5j8y72xsq283pqe/UNICEF_Edited.mov?dl=0"><span class="glyphicon glyphicon-play-circle" aria-hidden="true">  </span> The Goal of Rhizome Database</a>
+				<a class="blue team-link" href="https://www.youtube.com/watch?v=5AQBAJJoZWE&feature=youtu.be"><span class="glyphicon glyphicon-play-circle" aria-hidden="true">  </span> Every Last Child Official Trailer </a>
 				<h3 class="bg-title blue">What are we doing?</h3>
 				<p class="bg-describe">
-					Today, Polio remains endemic in just three countries - Nigeria, Pakistan, Afghanistan. To eradicate polio worldwide, UNICEF is building Rhizome, a real-time data platform to be used by GPEI employees from all levels.
-					Rhizome platform collects data from lowest possible level by allowing users to enter data via web form. After data has been aggregated, Rhizome platform can visualise the data for district, country and leadership level managers. With Rhizome, UNICEF have more comprehensive access to immunisation campaign related data. Rhizome is also a open source software. The future version of Rhizome will be suitable for any other similar data.
+					Today, Polio remains endemic in just three countries - Nigeria, Pakistan, Afghanistan. To eradicate polio worldwide, UNICEF is building Rhizome, a real-time data platform to be used by GPEI employees at all levels
+					Rhizome platform collects data from lowest possible level by allowing users to enter data via web form. After data has been aggregated, Rhizome platform can visualise the data for district, country and leadership level managers. With Rhizome, UNICEF have more comprehensive access to immunisation campaign related data. Rhizome is also an open source software. The future version of Rhizome will be suitable for any other similar data.
 				</p>
-				<p class="bg-describe">
-					ThoughtWorks is helping UNICEF build, test and roll out the Rhizome platform.
-				</p>
-				<img src="image/polio-team.png" alt="polio-team" class="team-photo">
-				<a class="blue team-link" href="#">Learn More About ThoughtWorks POLIO Team ></a>
+				<div class="row">
+					<img src="image/polio-team.jpg" alt="polio-team" class="col-xs-12 col-md-8 col-md-offset-2">
+				</div>
+				<a class="blue team-link" > △ Members of ThoughtWorks POLIO Team  </a> 
+				<!-- <a class="blue team-link" href="#">Learn More About ThoughtWorks POLIO Team ></a> -->
 			</div>
 		</div>
 	</div>
-	<div class="team-picture">
-		<div id="psm" class="mbg" data-stretch="image/psm.png">
+
+	<div class="team-picture-mbg">
+		<div id="psm" class="tbg" data-stretch="image/psm.jpg">
 			<p class="team-title">PS&M</p>
 			<p class="team-explain">Production Support and Maintenance</p>
 		</div>
 	</div>
+
 	<div class="info-bg">
 		<div class="container">
 			<div>
@@ -142,27 +152,33 @@
 				</p>
 			</div>
 			<div class="product row">
-				<a class="col-xs-6 col-md-2 col-md-offset-1" ><img alt="mics" class="product-logo" src="image/mics.png" style="height: 30px"></a>
-				<a class="col-xs-6 col-md-2" ><img alt="rapidpro" class="product-logo" src="image/rapidpro.png" style="height: 30px"></a>
-				<a class="col-xs-6 col-md-2" ><img alt="ureport" class="product-logo" src="image/ureport.png" style="height: 30px"></a>
-				<a class="col-xs-6 col-md-2" ><img alt="ftr" class="product-logo" src="image/ftr.png" style="height: 30px"></a>
-				<a class="col-xs-12 col-md-2" ><img alt="ftr" class="product-logo" src="image/tracpro.png" style="height: 30px"></a>
+				<a class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1" ><img alt="mics" class="product-logo" src="image/mics.png" style="height: 30px"></a>
+				<a class="col-xs-6 col-sm-4 col-md-2" ><img alt="rapidpro" class="product-logo" src="image/rapidpro.png" style="height: 30px"></a>
+				<a class="col-xs-6 col-sm-4 col-md-2" ><img alt="ureport" class="product-logo" src="image/ureport.png" style="height: 30px"></a>
+				<a class="col-xs-6 col-sm-6 col-md-2" ><img alt="ftr" class="product-logo" src="image/ftr.png" style="height: 30px"></a>
+				<a class="col-xs-12 col-sm-6  col-md-2" ><img alt="ftr" class="product-logo" src="image/tracpro.png" style="height: 30px"></a>
 			</div>
+			
 			<div>
 				<p class="bg-describe">
 					For UNICEF, we are devoted for providing professional production support and maintenance services, keep improving the infrastructure and the products, gives quick responses and ensures a reliable environment for our clients. Currently, we are maintaining several products for them, giving them strong and efficient support.
 				</p>
 			</div>
 			<div>
-				<img src="image/psm-team.png" alt="psm-team" class="team-photo endpoint">
-				<a class="green team-link" href="#">Learn More About ThoughtWorks P&SM Team ></a>
+				<div class="row">
+					<img src="image/psm-team.jpg" alt="psm-team" class="col-xs-12 col-md-8 col-md-offset-2">
+				</div>
+				<a class="green team-link" > △ Members of ThoughtWorks PS&M Team  </a> 
+				<!-- <a class="green team-link" href="#">Learn More About ThoughtWorks P&SM Team ></a> -->
 			</div>
 		</div>
 	</div>
 	<div id="slogen" >
-		<img alt="idea" id="idea-logo" src="image/idea.png">
-		<h1 class="bg-title">AMBITIOUS MISSIONS NEED DISRUPTIVE THINKING</h1>
-		<p class="bg-describe">We are passionate technologists. We provide software delivery, pioneering tools and consulting to help UNICEF with ambitious missions</p>
+		<div class="container">
+			<img alt="idea" id="idea-logo" src="image/idea.png">
+			<p class="bg-title">AMBITIOUS MISSIONS NEED DISRUPTIVE THINKING</p>
+			<p class="bg-describe-footer">We are passionate technologists. We provide software delivery, pioneering tools and consulting to help UNICEF with ambitious missions</p>
+		</div>
 	</div>
 	<div class="footer">
 		<div class="linkpage">
@@ -173,9 +189,7 @@
 </body>
 <script>
 	$('.bg').anystretch();
-	$('.ubg').anystretch();
-	$('.pbg').anystretch();
-	$('.mbg').anystretch();
+	$('.tbg').anystretch();
 	function scroll1(id) {  
 		$("#" + id).HoverTreeScroll(500);  
 	}  
@@ -186,28 +200,20 @@
 		$("#" + id).HoverTreeScroll(1500);  
 	}   	
 </script>
+
 <script type="text/javascript">
+// $(function(){
+// var fixtop1 = $('.team-picture-ubg');
+// fixtop1.scrollFix({distanceTop:-60,endPos:'.team-picture-pbg', zIndex : 999 });
+// })
+// $(function(){
+// var fixtop2 = $('.team-picture-pbg');
+// fixtop2.scrollFix({distanceTop:-60,endPos:'.team-picture-mbg' , zIndex : 999});
+// })
+// $(function(){
+// var fixtop3 = $('.team-picture-mbg');
+// fixtop3.scrollFix({distanceTop:-60,endPos:'.endpoint' ,zIndex : 999});
+// })
+ </script>
 
-
-    $(document).ready(function() {
-        var summaries = $('.team-picture');
-        summaries.each(function(i) {
-            var summary = $(summaries[i]);
-            var next = summaries[i + 1];
-            if(next){
-                summary.scrollFix({
-                distanceTop: $(".header").outerHeight() - 120,
-                endPos: next,
-                 zIndex: 1000
-            });
-            }else{
-                summary.scrollFix({
-                    distanceTop: $(".header").outerHeight() - 120,
-                    endPos: '.endpoint',
-                    zIndex: 1000 });
-            }
-            
-        });
-    });
-</script>
 </html>

@@ -36,14 +36,8 @@
 	height: 450px;
 }
 
-.ubg {
-	height: 300px;
-}
-.pbg {
-	height: 300px;
-}
-.mbg {
-	height: 300px;
+.tbg {
+	height: 210px;
 }
 
 #slogen{
@@ -63,16 +57,17 @@
 	font-family: 'Ruda', sans-serif;
 }
 
-.bg-title-polio{
-	color: #004A7B;
-}
-
-.bg-title-polio:hover {
-	color: #0069B2;
-	cursor:pointer;
-}
 
 .bg-describe{
+	text-align: justify;
+	/*    color: white;*/
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg-describe-footer{
 	text-align: center;
 	/*    color: white;*/
 	font-size: 17px;
@@ -109,6 +104,7 @@
 .team-grid:hover{
 	transform: translate(0px,-2px);
 	-webkit-filter: opacity(0.8);
+	-moz-filter: opacity(0.8);
 }
 
 .team-color-red{
@@ -151,7 +147,7 @@ a:hover, a:focus {
 	color: white;
 	font-size: 50px;
 	font-family: 'Ruda', sans-serif;
-	padding-top: 120px;
+	padding-top: 60px;
 	margin: 0 0;
 }
 
@@ -199,20 +195,6 @@ a:hover, a:focus {
 	color: #61925C;
 }
 
-.polio-location{
-	color: #00619F;
-	font-weight: 700;
-}
-
-.polio-photo{
-	-webkit-filter: opacity(0.5);
-	cursor: pointer;
-}
-
-.polio-photo:hover{
-	-webkit-filter:none;
-}
-
 .featured-quote {
     font-weight: 300;
     margin: 0;
@@ -233,11 +215,15 @@ a:hover, a:focus {
 
 .product-logo{
 	-webkit-filter: grayscale(1);
+	filter: gray;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 	margin: 10px 0;
 	transition: all .2s ease-out;
 }
 
 .product-logo:hover,.product-logo:focus{
 	-webkit-filter: grayscale(0) drop-shadow(3px 3px 3px #A0A0A0);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	filter: none;
 	transform: translate(0px,-1px);
 }
